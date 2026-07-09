@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><title>Admin Login</title><link rel="stylesheet" href="/css/style.css"></head>
+<body style="display:flex;justify-content:center;align-items:center;height:100vh">
+<div class="modal-content">
+  <h2>Admin Login</h2>
+  <input type="password" id="adminPass" placeholder="Enter Admin Password">
+  <button onclick="login()">Login</button>
+  <p style="font-size:12px">Default: CHANGE_ME_LATER</p>
+</div>
+<script>
+function login(){
+  if(document.getElementById('adminPass').value === 'CHANGE_ME_LATER'){
+    localStorage.setItem('admin', 'true');
+    window.location = '/admin.html';
+  } else alert('Wrong password');
+}
+</script>
+</body></html>
