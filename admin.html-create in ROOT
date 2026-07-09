@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Salone Bundle</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>⚙️ Admin Dashboard</h1>
+    <button onclick="logout()" style="background:#ef4444">Logout</button>
+  </header>
+
+  <div id="apiStatus"></div>
+
+  <h2>1. Update Bundles</h2>
+  <p>Edit prices here. Changes save to browser. For permanent, edit `/data/bundles.json` in GitHub</p>
+  <div id="bundleEditor"></div>
+  <button onclick="saveBundles()">Save Changes</button>
+
+  <h2>2. Change Admin Password</h2>
+  <input type="password" id="newPass" placeholder="New Password">
+  <button onclick="changePassword()">Update Password</button>
+
+  <h2>3. Orders</h2>
+  <div id="orders">No orders yet. Orders will show here when Hubtel is connected.</div>
+
+  <script src="/js/admin.js"></script>
+</body>
+</html>
