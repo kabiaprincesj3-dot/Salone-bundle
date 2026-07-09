@@ -1,0 +1,25 @@
+body { 
+  font-family: Arial; 
+  background: #f1f5f9; 
+  margin: 0; 
+  padding: 15px; 
+  text-align: center; 
+}
+h1 { color: #00A651; }
+button { 
+  background: #0033A0; 
+  color: white; 
+  border: none; 
+  padding: 12px; 
+  margin: 5px; 
+  border-radius: 8px; 
+  font-weight: bold; 
+  width: 90%; 
+}
+#bundles { 
+  background: white; 
+  padding: 15px; 
+  border-radius: 10px; 
+  margin-top: 15px; 
+  text-align: left; 
+}
