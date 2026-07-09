@@ -1,0 +1,13 @@
+{
+  "Orange": [
+    {"id": "ORANGE_DAILY_1", "name": "1GB Daily", "wholesale_price": 9000, "selling_price": 10000, "validity": "1 Day", "category": "Daily", "api_code": "UPDATE_ME"},
+    {"id": "ORANGE_WEEKLY_1", "name": "3GB Weekly", "wholesale_price": 22000, "selling_price": 25000, "validity": "7 Days", "category": "Weekly", "api_code": "UPDATE_ME"},
+    {"id": "ORANGE_MONTHLY_1", "name": "5GB Monthly", "wholesale_price": 35000, "selling_price": 40000, "validity": "30 Days", "category": "Monthly", "api_code": "UPDATE_ME"}
+  ],
+  "Africell": [
+    {"id": "AFRICELL_DAILY_1", "name": "1GB Daily", "wholesale_price": 7000, "selling_price": 8000, "validity": "1 Day", "category": "Daily", "api_code": "UPDATE_ME"}
+  ],
+  "Qcell": [
+    {"id": "QCELL_DAILY_1", "name": "1GB Daily", "wholesale_price": 6000, "selling_price": 7000, "validity": "1 Day", "category": "Daily", "api_code": "UPDATE_ME"}
+  ]
+}
